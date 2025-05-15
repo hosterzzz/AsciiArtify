@@ -35,4 +35,4 @@ k3d	- Very fast and lightweight
 - Smaller community compared to Minikube/Kind
 ## demo
 
-![Image](demo.gif)
+![Image](/demo.gif)
