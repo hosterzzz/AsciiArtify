@@ -1,5 +1,5 @@
 # Comparison of Minikube, Kind, and k3d
-##Introduction
+## Introduction
 Minikube, Kind, and k3d are popular tools to run Kubernetes clusters locally.
 
 K (Kubernetes)  | Minikube 💻                                   | Kind 🐳                                        | k3d 🚀
@@ -17,7 +17,7 @@ Documentation   | Well-documented.                              | Well-documente
 Ingress Support | 🟢 Supported via plugins.                     | 🟡 Supported with standard ingress controllers.| 🟡 Supported with standard ingress controllers.
 Community       | 🟢 Large and active.                          | 🟢 Large and active.                           | 🟡 Growing and active.
 
-##Advantages and Disadvantages
+## Advantages and Disadvantages
 Tool	Advantages	Disadvantages
 Minikube	- Full Kubernetes compatibility
 - Supports multi-node clusters
@@ -34,7 +34,7 @@ k3d	- Very fast and lightweight
 - Supports multi-node clusters
 - Simple CLI management	- Some Kubernetes features may be trimmed in k3s
 - Smaller community compared to Minikube/Kind
-##demo
+## demo
 
 ##Conclusions
 Minikube is best suited for those who want a full-featured Kubernetes experience locally, especially if you prefer VM-based environments or multi-node setups. A.
