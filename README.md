@@ -41,7 +41,7 @@ k3d	- Very fast and lightweight
 - Smaller community compared to Minikube/Kind
 ## demo
 
-https://github.com/wagoodman/dive
+![Image](demo.gif)
 
 ## Conclusions
 
