@@ -14,6 +14,7 @@ Handling connection for 8081
 - #curl curl -F 'image=@Linux.png' localhost:8081/img/
 
 - #k get svc -n demo
+
 NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                                                 AGE
 demo-api                 ClusterIP      10.43.133.224   <none>        80/TCP                                                  25d
 demo-ascii               ClusterIP      10.43.79.61     <none>        80/TCP                                                  25d
