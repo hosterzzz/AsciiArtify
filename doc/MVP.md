@@ -28,10 +28,13 @@ envoy-gateway            ClusterIP      10.43.28.41     <none>        18000/TCP,
 envoy-test-eg-9483c8f2   LoadBalancer   10.43.217.212   <pending>     80:31105/TCP                                            17d
 express                  ClusterIP      10.43.223.70    <none>        8081/TCP                                                30d
 
+![Image](/doc/argo.png)
 
 Let's check the changes:
 
 curl -F 'image=@g.png' localhost:8081/img/
 We will get the result directly in the console:
 Result
+
+![Image](/doc/result.png)
 
