@@ -1,19 +1,19 @@
 ### Minimum Viable Product (MVP):
-Goal: Create a minimal functional product that can be brought to market and receive feedback from users. In our case, this is a demonstration of the AsciiArtify application
+##Goal: Create a minimal functional product that can be brought to market and receive feedback from users. In our case, this is a demonstration of the AsciiArtify application
 
 Documentation content: MVP documentation should include more details compared to PoC. Typically, this includes defining functional requirements, interface design, technical architecture, execution plan, test plan, scaling plan, and implementation strategy.
 
-Checking the operation of the AsciiArtify application
-Forward the ports with the following command:
+##Checking the operation of the AsciiArtify application
+##Forward the ports with the following command:
 
-$k port-forward svc/ambassador 8081:80 
+- #k port-forward svc/ambassador 8081:80 
 Forwarding from 127.0.0.1:8081 -> 80
 Forwarding from [::1]:8081 -> 80
 Handling connection for 8081
 
-$ curl curl -F 'image=@Linux.png' localhost:8081/img/
+- #curl curl -F 'image=@Linux.png' localhost:8081/img/
 
-✗ k get svc -n demo
+- #k get svc -n demo
 NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                                                 AGE
 demo-api                 ClusterIP      10.43.133.224   <none>        80/TCP                                                  25d
 demo-ascii               ClusterIP      10.43.79.61     <none>        80/TCP                                                  25d
@@ -32,7 +32,7 @@ express                  ClusterIP      10.43.223.70    <none>        8081/TCP  
 
 Let's check the changes:
 
-curl -F 'image=@g.png' localhost:8081/img/
+- #curl -F 'image=@g.png' localhost:8081/img/
 We will get the result directly in the console:
 Result
 
